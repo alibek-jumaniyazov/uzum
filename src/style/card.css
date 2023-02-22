@@ -1,0 +1,111 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    width: 232px;
+    height: 456.33px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+    border-radius: 6px;
+}
+.Card:hover{
+    box-shadow: 0px 6px 15px 0px rgba(169, 169, 169, 0.131);
+
+}
+
+.img {
+    position: relative;
+}
+
+.img p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 93.16px;
+    height: 21px;
+    background: #5000DD;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.name {
+    width: 181.1px;
+    height: 30.86px;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 8px;
+}
+
+.ballar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-left: 8px;
+}
+
+.nasiya {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    height: 17px;
+    padding: 1px 5px;
+    background: #FFFF00;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    color: #1F1F26;
+    margin-left: 8px;
+}
+
+.sum {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    margin-left: 8px;
+}
+
+.oldigni {
+    font-weight: 400;
+    font-size: 11.2px;
+    line-height: 13px;
+    text-decoration-line: line-through;
+    color: #757575;
+}
+
+.hozirgi {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.card_foot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.card_foot img{
+    margin-right: 8px;
+}
+.shop_btn{
+   transition: all 0.5s ease;
+}
+.shop_btn:active{
+   scale: 80%;
+}

@@ -1,0 +1,49 @@
+.carusel {
+    border-radius: 10px;
+}
+
+.swipper {
+    margin: 20px auto;
+}
+
+.Savdo {
+    height: 36px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    margin: 30px 0;
+}
+
+.Cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.kategoriImg {
+    margin: 50px auto;
+}
+
+.ozers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(118, 121, 127, 0.1);
+    border-radius: 8px;
+    margin: 20px auto;
+    height: 56px;
+    width: 740px;
+    border-radius: 8px;
+    padding: 18px 298px 19px 299px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #141415;
+}
+.cards2{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}

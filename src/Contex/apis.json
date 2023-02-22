@@ -1,0 +1,67 @@
+
+
+[
+    {
+        "id":1,
+        "img": "img1",
+        "name": "Gazlangan ichimlik Pepsi, 1 l + Mountain Dew, 1l, 1+1",
+        "ball": "5.0 (232 baho)",
+        "nasia": 1080,
+        "oldingi": 22000,
+        "hozirgi": 9000
+    },
+    {
+        "id":2,
+        "img": "img2",
+        "name": "Erkaklar futbolkasi Base Unisex, qisqa yengli bilan",
+        "ball": "4.5 (290 baho)",
+        "nasia": 1080,
+        "oldingi": 22000,
+        "hozirgi": 9000
+    },
+    {
+        "id":3,
+        "img": "img1",
+        "name": "Gazlangan ichimlik Pepsi, 1 l + Mountain Dew, 1l, 1+1",
+        "ball": "5.0 (232 baho)",
+        "nasia": 1080,
+        "oldingi": 22000,
+        "hozirgi": 9000
+    },
+    {
+        "id":4,
+        "img": "img1",
+        "name": "Gazlangan ichimlik Pepsi, 1 l + Mountain Dew, 1l, 1+1",
+        "ball": "5.0 (232 baho)",
+        "nasia": 1080,
+        "oldingi": 22000,
+        "hozirgi": 9000
+    },
+    {
+        "id":5,
+        "img": "img1",
+        "name": "Gazlangan ichimlik Pepsi, 1 l + Mountain Dew, 1l, 1+1",
+        "ball": "5.0 (232 baho)",
+        "nasia": 1080,
+        "oldingi": 22000,
+        "hozirgi": 9000
+    },
+    {
+        "id": 6,
+        "img": "img1",
+        "name": "Gazlangan ichimlik Pepsi, 1 l + Mountain Dew, 1l, 1+1",
+        "ball": "5.0 (232 baho)",
+        "nasia": 1080,
+        "oldingi": 22000,
+        "hozirgi": 9000
+    },
+    {
+        "id":7,
+        "img": "img1",
+        "name": "Gazlangan ichimlik Pepsi, 1 l + Mountain Dew, 1l, 1+1",
+        "ball": "5.0 (232 baho)",
+        "nasia": 1080,
+        "oldingi": 22000,
+        "hozirgi": 9000
+    }
+]
