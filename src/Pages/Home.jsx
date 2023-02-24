@@ -74,6 +74,14 @@ export default function Home() {
             </div>
 
             <img src={carusel3} alt="" className="carusel kategoriImg" />
+            <div className="Cards">
+                {
+                    api.map((item) => (
+                        <Card item={item} />
+                    ))
+                }
+
+            </div>
 
         </div>
     )

@@ -77,7 +77,7 @@ export default function Navbar() {
 
             </div>
             <ul className="navList">
-                <li className="items">Elektronika</li>
+            <Link to={'/elektronika'} >   <li className="items">Elektronika</li></Link>
                 <li className="items">Maishiy texnika</li>
                 <li className="items">Kiyim</li>
                 <li className="items">Poyabzallar</li>

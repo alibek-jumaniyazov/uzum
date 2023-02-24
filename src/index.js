@@ -6,6 +6,7 @@ import './style/app.css';
 import './style/card.css';
 import './style/home.css';
 import './style/navbar.css';
+import './style/footer.css';
 import './style/biblateka.css';
 import { ChakraProvider } from '@chakra-ui/react';
 

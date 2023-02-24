@@ -1,0 +1,93 @@
+.Footer {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 322.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.mainFooter {
+    width: 1240px;
+    height: 322.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.footInfo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.infoText {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infoText p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1F1F26;
+}
+
+.infoText span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4D4E59;
+}
+
+.footIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footIcon p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconsFoot {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+.s{
+    gap: 30px;
+}
+.footBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.footBottom p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1F1F26;
+}
+.footBottom span{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    color: #4D4E59;
+}
+hr{
+    width: 100%;
+}
