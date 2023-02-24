@@ -82,7 +82,9 @@ export default function Home() {
                 }
 
             </div>
-
+            <div className="ozers">
+                Yana koʻrsatish 20
+            </div>
         </div>
     )
 }
