@@ -41,6 +41,7 @@ export default function Home() {
             </div>
             <p className="Savdo">Katta sotuvlar</p>
             <div className="Cards">
+
                 {
                     api.map((item) => (
                         <Card item={item} />
@@ -56,6 +57,7 @@ export default function Home() {
             <p className="Savdo">Ortiqcha to'lovlarsiz nasiya</p>
             <div className="Cards">
                 <div className="Cards cards2">
+
                     {
                         api.slice(0, 10).map((item) => (
                             <Card item={item} />

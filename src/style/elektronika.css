@@ -1,0 +1,107 @@
+.pages_list {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.378);
+    margin: 20px auto;
+}
+
+.elektornikaMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.selects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.selects span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(98, 101, 106, 0.87);
+}
+
+.selects select {
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    height: 40px;
+    width: 220px;
+}
+
+.selects select option {
+    font-weight: 400;
+    font-size: 14.4px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+
+}
+
+.elements {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.elem {
+    width: 1000px;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hrElecktronika {
+    margin: 30px auto;
+}
+
+.elemTitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.listItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
+    margin-left: 20px;
+}
+
+.listItems p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(33, 33, 33, 0.87);
+    
+}
