@@ -21,7 +21,7 @@ export default function Navbar() {
         if (box == 'katalogOpen') {
             setBox('katalogClose')
         }
-
+a
     }
 
 
