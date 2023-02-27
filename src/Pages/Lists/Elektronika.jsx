@@ -1,4 +1,5 @@
 import api from '../../Contex/Api'
+import { Link } from "react-router-dom"
 
 import Card from "../../Components/Katta Sotuvlar/Card";
 import {
@@ -33,7 +34,7 @@ export default function Elektronika() {
                 <div className="elements">
                     <p className="elemTitle">Turkumlar</p>
                     <div className="listItems">
-                        <p className="listItemstext"><i class="fa-solid fa-angle-left"></i> Barcha turkumlar</p>
+                    <Link to={'/barcha'} >  <p className="listItemstext bar"><i class="fa-solid fa-angle-left"></i> Barcha turkumlar</p></Link>
                         <p className='listItemstext mainText'>Elektronika</p>
                         <p className="listItemstext">Elektronikalar uchun aksessuarlar</p>
                         <p className="listItemstext">Oʻyin pristavkalari</p>

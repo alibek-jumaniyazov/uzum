@@ -7,6 +7,7 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 20px;
+    position: relative;
 }
 
 .nav {
@@ -222,4 +223,33 @@
 .items:hover {
     color: #000000;
     cursor: pointer;
+}
+.katalogOpen{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 600px;
+    z-index: 999;
+    top: 95px;
+    box-shadow: 0px 91px 76px 0px rgba(34, 60, 80, 0.21); 
+    transition: all 0.2s ease;
+}
+.katalogClose{
+    position: absolute;
+    display: flex;
+    opacity: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    height: 600px;
+    z-index: 0;
+    top: 95px;
+    box-shadow: 0px 91px 76px 0px rgba(34, 60, 80, 0.21); 
+    transition: all 0.2s ease;
 }

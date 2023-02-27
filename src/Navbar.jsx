@@ -11,6 +11,20 @@ import { Link } from "react-router-dom"
 export default function Navbar() {
     const [gorod, setGorod] = useState('Urganch')
     const [flag, setFlag] = useState(uzb)
+    const [box, setBox] = useState('katalogClose')
+
+
+    function className() {
+        if (box == 'katalogClose') {
+            setBox('katalogOpen')
+        }
+        if (box == 'katalogOpen') {
+            setBox('katalogClose')
+        }
+
+    }
+
+
     return (
         <div className="Navbar">
             <div className="nav">
@@ -42,8 +56,8 @@ export default function Navbar() {
             <div className="navSearch">
                 <Link to={'/'}><img className="logo" src={logo} alt="" /></Link>
                 <div className="searchBar">
-                    <div className="katalog">
-                        <label class="container">
+                    <div onClick={() => className()} className="katalog">
+                        <label onClick={() => className()} class="container">
                             <input type="checkbox" />
                             <div class="checkmark">
                                 <span></span>
@@ -74,7 +88,6 @@ export default function Navbar() {
                         <p>Savat</p>
                     </div>
                 </div>
-
             </div>
             <ul className="navList">
                 <Link to={'/elektronika'} >  <li className="items">Elektronika</li>  </Link>
@@ -88,8 +101,11 @@ export default function Navbar() {
                 <Link to={'/qurilish'} >  <li className="items">Qurilish va taʼmirlash</li>  </Link>
                 <Link to={'/avtotolovlarr'} >  <li className="items">Avtotovarlar</li>  </Link>
                 <Link to={'/bolalar'} >  <li className="items">Bolalar tovarlari</li>  </Link>
-                    <li className="items">Yana</li>
+                <li className="items">Yana</li>
             </ul>
+            <div className={box}>
+
+            </div>
         </div>
     )
 }

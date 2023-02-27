@@ -15,6 +15,7 @@ import Texnika from './Pages/Lists/Texnika';
 import Uy from './Pages/Lists/Uy';
 import './style/app.css'
 import { ChakraProvider } from '@chakra-ui/react';
+import Barcha from './Pages/Lists/Barcha';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             <Route path='/qurilish' element={<Qurilish/>}/>
             <Route path='/salomatlik' element={<Salomatlik/>}/>
             <Route path='/uy' element={<Uy/>}/>
+            <Route path='/barcha' element={<Barcha/>}/>
           </Routes>
         </div>
         <Footer/>
