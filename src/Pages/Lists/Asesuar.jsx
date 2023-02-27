@@ -1,15 +1,8 @@
 import api from '../../Contex/Api'
 
 import Card from "../../Components/Katta Sotuvlar/Card";
-import {
-    RangeSlider,
-    RangeSliderTrack,
-    RangeSliderFilledTrack,
-    RangeSliderThumb,
-} from '@chakra-ui/react'
 
-
-export default function Elektronika() {
+export default function Aksesuar() {
     return (
         <div className="Elektronika">
             <p className="pages_list">Bosh sahifa / Barcha toifalar /Elektronika</p>
@@ -28,35 +21,20 @@ export default function Elektronika() {
                     <p className="elemTitle">Turkumlar</p>
                     <div className="listItems">
                         <p>Barcha turkumlar</p>
-                        <p>Elektronika</p>
-                        <p>Elektronikalar uchun aksessuarlar</p>
+                        <p>Aksessuarlar</p>
+                        <p>Kattalar uchun aksessuarlar</p>
                         <p>Oʻyin pristavkalari</p>
-                        <p>Kompyuter texnikasi</p>
-                        <p>Navigatorlar</p>
-                        <p>Quloqchinlar va audio texnikalar</p>
+                        <p>Qizlar uchun aksessuarlar</p>
+                        <p>Oʻgʻil bolalar uchun aksessuarlar</p>
+                        <p>Sayohat uchun aksessuarlar</p>
                         <p>Noutbuklar, planshetlar va elektron kitoblar</p>
-                        <p>Optik anjomlar</p>
-                        <p>Ofis texnikasi</p>
-                        <p>Smartfonlar va telefonlar</p>
-                        <p>Televizorlar va videotexnikalar</p>
-                        <p>Aqlli soatlar va fitnes bilaguzuklar</p>
-                        <p>Aqlli uy va xavfsizlik</p>
-                        <p>Foto va video texnika</p>
-                        <p>Soatlar va elektron budilniklar</p>
+                        <p>Ayollar aksessuarlari</p>
+                        <p>Erkaklar aksessuarlari</p>
+                        <p>Diniy aksessuarlar</p>
                     </div>
                     <p className="elemTitle">Narx, baho</p>
                     <div className="narx">
-                        <RangeSlider
-                            aria-label={['min', 'max']}
-                            colorScheme='pink'
-                            defaultValue={[10, 30]}
-                        >
-                            <RangeSliderTrack>
-                                <RangeSliderFilledTrack />
-                            </RangeSliderTrack>
-                            <RangeSliderThumb index={0} />
-                            <RangeSliderThumb index={1} />
-                        </RangeSlider>
+
                     </div>
                     <p className="elemTitle">Narx, baho</p>
                     <div className="Brend">

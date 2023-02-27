@@ -1,15 +1,8 @@
 import api from '../../Contex/Api'
 
 import Card from "../../Components/Katta Sotuvlar/Card";
-import {
-    RangeSlider,
-    RangeSliderTrack,
-    RangeSliderFilledTrack,
-    RangeSliderThumb,
-} from '@chakra-ui/react'
 
-
-export default function Elektronika() {
+export default function Salomatlik() {
     return (
         <div className="Elektronika">
             <p className="pages_list">Bosh sahifa / Barcha toifalar /Elektronika</p>
@@ -28,15 +21,15 @@ export default function Elektronika() {
                     <p className="elemTitle">Turkumlar</p>
                     <div className="listItems">
                         <p>Barcha turkumlar</p>
-                        <p>Elektronika</p>
-                        <p>Elektronikalar uchun aksessuarlar</p>
-                        <p>Oʻyin pristavkalari</p>
-                        <p>Kompyuter texnikasi</p>
-                        <p>Navigatorlar</p>
-                        <p>Quloqchinlar va audio texnikalar</p>
-                        <p>Noutbuklar, planshetlar va elektron kitoblar</p>
-                        <p>Optik anjomlar</p>
-                        <p>Ofis texnikasi</p>
+                        <p>Salomatlik</p>
+                        <p>Vitaminlar, BFQlar, ozuqaviy qoʻshimchalar</p>
+                        <p>Intim kosmetika</p>
+                        <p>Massaj uskunalari</p>
+                        <p>Tibbiy buyumlar va sarflov materiallari</p>
+                        <p>Tibbiy jihozlar</p>
+                        <p>Optika</p>
+                        <p>Ortopedik buyumlar</p>
+                        <p>Prezervativlar va lubrikantlar</p>
                         <p>Smartfonlar va telefonlar</p>
                         <p>Televizorlar va videotexnikalar</p>
                         <p>Aqlli soatlar va fitnes bilaguzuklar</p>
@@ -46,27 +39,17 @@ export default function Elektronika() {
                     </div>
                     <p className="elemTitle">Narx, baho</p>
                     <div className="narx">
-                        <RangeSlider
-                            aria-label={['min', 'max']}
-                            colorScheme='pink'
-                            defaultValue={[10, 30]}
-                        >
-                            <RangeSliderTrack>
-                                <RangeSliderFilledTrack />
-                            </RangeSliderTrack>
-                            <RangeSliderThumb index={0} />
-                            <RangeSliderThumb index={1} />
-                        </RangeSlider>
+                        <input type="range" />
                     </div>
                     <p className="elemTitle">Narx, baho</p>
                     <div className="Brend">
                         <p><div class="cntr">
-                            <input checked="" type="checkbox" id="cbx" class="hidden-xs-up" />
-                            <label for="cbx" class="cbx"></label>
+
+                            <input checked="" class="check" type="checkbox" />
                         </div> 1MORE</p>
                         <p><div class="cntr">
                             <input checked="" type="checkbox" id="cbx" class="hidden-xs-up" />
-                            <label for="cbx" class="cbx"></label>
+                          
                         </div> 1MORE</p>
                         <p><div class="cntr">
                             <input checked="" type="checkbox" id="cbx" class="hidden-xs-up" />
@@ -86,7 +69,7 @@ export default function Elektronika() {
                         </div> 1MORE</p>
                     </div>
                 </div>
-                <div className="lists">
+                <div className="lists f">
                     <div className="Cards elem">
 
                         {

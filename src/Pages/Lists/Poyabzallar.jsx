@@ -1,15 +1,8 @@
 import api from '../../Contex/Api'
 
 import Card from "../../Components/Katta Sotuvlar/Card";
-import {
-    RangeSlider,
-    RangeSliderTrack,
-    RangeSliderFilledTrack,
-    RangeSliderThumb,
-} from '@chakra-ui/react'
 
-
-export default function Elektronika() {
+export default function Poyabzallar() {
     return (
         <div className="Elektronika">
             <p className="pages_list">Bosh sahifa / Barcha toifalar /Elektronika</p>
@@ -28,35 +21,17 @@ export default function Elektronika() {
                     <p className="elemTitle">Turkumlar</p>
                     <div className="listItems">
                         <p>Barcha turkumlar</p>
-                        <p>Elektronika</p>
-                        <p>Elektronikalar uchun aksessuarlar</p>
-                        <p>Oʻyin pristavkalari</p>
-                        <p>Kompyuter texnikasi</p>
-                        <p>Navigatorlar</p>
-                        <p>Quloqchinlar va audio texnikalar</p>
-                        <p>Noutbuklar, planshetlar va elektron kitoblar</p>
-                        <p>Optik anjomlar</p>
-                        <p>Ofis texnikasi</p>
-                        <p>Smartfonlar va telefonlar</p>
-                        <p>Televizorlar va videotexnikalar</p>
-                        <p>Aqlli soatlar va fitnes bilaguzuklar</p>
-                        <p>Aqlli uy va xavfsizlik</p>
-                        <p>Foto va video texnika</p>
-                        <p>Soatlar va elektron budilniklar</p>
+                        <p>Poyabzallar</p>
+                        <p>Poyabzal aksessuarlari</p>
+                        <p>Ayollar poyabzali</p>
+                        <p>Erkaklar poyabzali</p>
+                        <p>Qizlar uchun poyabzal</p>
+                        <p>Oʻgʻil bolalar uchun poyabzal</p>
+                        <p>Maxsus poyabzal</p>
                     </div>
                     <p className="elemTitle">Narx, baho</p>
                     <div className="narx">
-                        <RangeSlider
-                            aria-label={['min', 'max']}
-                            colorScheme='pink'
-                            defaultValue={[10, 30]}
-                        >
-                            <RangeSliderTrack>
-                                <RangeSliderFilledTrack />
-                            </RangeSliderTrack>
-                            <RangeSliderThumb index={0} />
-                            <RangeSliderThumb index={1} />
-                        </RangeSlider>
+
                     </div>
                     <p className="elemTitle">Narx, baho</p>
                     <div className="Brend">

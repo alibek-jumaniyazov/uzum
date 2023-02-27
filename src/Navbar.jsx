@@ -40,7 +40,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div className="navSearch">
-              <Link to={'/'}><img className="logo" src={logo} alt="" /></Link>
+                <Link to={'/'}><img className="logo" src={logo} alt="" /></Link>
                 <div className="searchBar">
                     <div className="katalog">
                         <label class="container">
@@ -77,18 +77,18 @@ export default function Navbar() {
 
             </div>
             <ul className="navList">
-            <Link to={'/elektronika'} >   <li className="items">Elektronika</li></Link>
-                <li className="items">Maishiy texnika</li>
-                <li className="items">Kiyim</li>
-                <li className="items">Poyabzallar</li>
-                <li className="items">Aksessuarlarr</li>
-                <li className="items">Goʻzallik</li>
-                <li className="items">Salomatlik</li>
-                <li className="items">Uy-roʻzgʻor buyumlari</li>
-                <li className="items">Qurilish va taʼmirlash</li>
-                <li className="items">Avtotovarlar</li>
-                <li className="items">Bolalar tovarlari</li>
-                <li className="items">Yana</li>
+                <Link to={'/elektronika'} >  <li className="items">Elektronika</li>  </Link>
+                <Link to={'/texnika'} >  <li className="items">Maishiy texnika</li>  </Link>
+                <Link to={'/kiyim'} >  <li className="items">Kiyim</li>  </Link>
+                <Link to={'/poyabzallar'} >  <li className="items">Poyabzallar</li>  </Link>
+                <Link to={'/aksesuarlar'} >  <li className="items">Aksessuarlarr</li>  </Link>
+                <Link to={'/goʻzallik'} >  <li className="items">Goʻzallik</li>  </Link>
+                <Link to={'/salomatlik'} >  <li className="items">Salomatlik</li>  </Link>
+                <Link to={'/uy'} >  <li className="items">Uy-roʻzgʻor buyumlari</li>  </Link>
+                <Link to={'/qurilish'} >  <li className="items">Qurilish va taʼmirlash</li>  </Link>
+                <Link to={'/avtotolovlarr'} >  <li className="items">Avtotovarlar</li>  </Link>
+                <Link to={'/bolalar'} >  <li className="items">Bolalar tovarlari</li>  </Link>
+                    <li className="items">Yana</li>
             </ul>
         </div>
     )

@@ -1,104 +1,239 @@
-
 .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-  
-  .container {
-    display: block;
-    position: relative;
-    cursor: pointer;
-    font-size: 12px;
-    user-select: none;
-  }
-  
-  .checkmark {
-    position: relative;
-    top: 0;
-    left: 20px;
-    height: 1.3em;
-    width: 1.3em;
-  }
-  
-  .checkmark span {
-    width: 18px;
-    height: 2px;
-    background: #5C5CD6;
-    position: absolute;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-  }
-  
-  .checkmark span:nth-child(1) {
-    top: 10%;
-  }
-  
-  .checkmark span:nth-child(2) {
-    top: 50%;
-  }
-  
-  .checkmark span:nth-child(3) {
-    top: 90%;
-  }
-  
-  .container input:checked + .checkmark span:nth-child(1) {
-    top: 50%;
-    transform: translateY(-50%) rotate(45deg);
-    -webkit-transform: translateY(-50%) rotate(45deg);
-    -moz-transform: translateY(-50%) rotate(45deg);
-    -ms-transform: translateY(-50%) rotate(45deg);
-    -o-transform: translateY(-50%) rotate(45deg);
-  }
-  
-  .container input:checked + .checkmark span:nth-child(2) {
-    top: 50%;
-    transform: translateY(-50%) rotate(-45deg);
-    -webkit-transform: translateY(-50%) rotate(-45deg);
-    -moz-transform: translateY(-50%) rotate(-45deg);
-    -ms-transform: translateY(-50%) rotate(-45deg);
-    -o-transform: translateY(-50%) rotate(-45deg);
-  }
-  
-  .container input:checked + .checkmark span:nth-child(3) {
-    transform: translateX(-50px);
-    -webkit-transform: translateX(-50px);
-    -moz-transform: translateX(-50px);
-    -ms-transform: translateX(-50px);
-    -o-transform: translateX(-50px);
-    opacity: 0;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 12px;
+  user-select: none;
+}
+
+.checkmark {
+  position: relative;
+  top: 0;
+  left: 20px;
+  height: 1.3em;
+  width: 1.3em;
+}
+
+.checkmark span {
+  width: 18px;
+  height: 2px;
+  background: #5C5CD6;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.checkmark span:nth-child(1) {
+  top: 10%;
+}
+
+.checkmark span:nth-child(2) {
+  top: 50%;
+}
+
+.checkmark span:nth-child(3) {
+  top: 90%;
+}
+
+.container input:checked+.checkmark span:nth-child(1) {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  -webkit-transform: translateY(-50%) rotate(45deg);
+  -moz-transform: translateY(-50%) rotate(45deg);
+  -ms-transform: translateY(-50%) rotate(45deg);
+  -o-transform: translateY(-50%) rotate(45deg);
+}
+
+.container input:checked+.checkmark span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+  -webkit-transform: translateY(-50%) rotate(-45deg);
+  -moz-transform: translateY(-50%) rotate(-45deg);
+  -ms-transform: translateY(-50%) rotate(-45deg);
+  -o-transform: translateY(-50%) rotate(-45deg);
+}
+
+.container input:checked+.checkmark span:nth-child(3) {
+  transform: translateX(-50px);
+  -webkit-transform: translateX(-50px);
+  -moz-transform: translateX(-50px);
+  -ms-transform: translateX(-50px);
+  -o-transform: translateX(-50px);
+  opacity: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cbx {
+  position: relative;
+  top: 1px;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #c8ccd4;
+  border-radius: 3px;
+  vertical-align: middle;
+  transition: background 0.1s ease;
+  cursor: pointer;
+  display: block;
+}
+
+.cbx:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  width: 7px;
+  height: 14px;
+  opacity: 0;
+  transform: rotate(45deg) scale(0);
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transition: all 0.3s ease;
+  transition-delay: 0.15s;
+}
+
+.lbl {
+  margin-left: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#cbx:checked~.cbx {
+  border-color: transparent;
+  background: #6871f1;
+  animation: jelly 0.6s ease;
+}
+
+#cbx:checked~.cbx:after {
+  opacity: 1;
+  transform: rotate(45deg) scale(1);
+}
+
+.cntr {
+  position: relative;
+}
+
+@keyframes jelly {
+  from {
+    transform: scale(1, 1);
   }
 
-  .swiper {
-    width: 100%;
-    height: 100%;
+  30% {
+    transform: scale(1.25, 0.75);
   }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  40% {
+    transform: scale(0.75, 1.25);
   }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+  50% {
+    transform: scale(1.15, 0.85);
   }
-  
-  .swiper {
-    margin-left: auto;
-    margin-right: auto;
+
+  65% {
+    transform: scale(0.95, 1.05);
   }
-  
+
+  75% {
+    transform: scale(1.05, 0.95);
+  }
+
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+.hidden-xs-up {
+  display: none !important;
+}
+
+.check {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  appearance: none;
+  background-color: #bbb;
+  transition: all .3s;
+}
+
+.check::before {
+  content: '';
+  position: absolute;
+  border: solid #fff;
+  display: block;
+  width: .3em;
+  height: .6em;
+  border-width: 0 .2em .2em 0;
+  z-index: 1;
+  opacity: 0;
+  right: calc(50% - .3em);
+  top: calc(50% - .6em);
+  transform: rotate(0deg);
+  transition: all .3s;
+  transform-origin: center center;
+}
+
+.check:checked {
+  animation: a .3s ease-in forwards;
+  background-color: rgb(120, 190, 120);
+}
+
+.check:checked::before {
+  opacity: 1;
+  transform: rotate(405deg);
+}
+
+@keyframes a {
+  0% {
+    opacity: 1;
+    transform: scale(1) rotateY(0deg);
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale(.8) rotateY(180deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) rotateY(360deg);
+  }
+}

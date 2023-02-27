@@ -1,15 +1,8 @@
 import api from '../../Contex/Api'
 
 import Card from "../../Components/Katta Sotuvlar/Card";
-import {
-    RangeSlider,
-    RangeSliderTrack,
-    RangeSliderFilledTrack,
-    RangeSliderThumb,
-} from '@chakra-ui/react'
 
-
-export default function Elektronika() {
+export default function Gozallik() {
     return (
         <div className="Elektronika">
             <p className="pages_list">Bosh sahifa / Barcha toifalar /Elektronika</p>
@@ -46,17 +39,7 @@ export default function Elektronika() {
                     </div>
                     <p className="elemTitle">Narx, baho</p>
                     <div className="narx">
-                        <RangeSlider
-                            aria-label={['min', 'max']}
-                            colorScheme='pink'
-                            defaultValue={[10, 30]}
-                        >
-                            <RangeSliderTrack>
-                                <RangeSliderFilledTrack />
-                            </RangeSliderTrack>
-                            <RangeSliderThumb index={0} />
-                            <RangeSliderThumb index={1} />
-                        </RangeSlider>
+
                     </div>
                     <p className="elemTitle">Narx, baho</p>
                     <div className="Brend">
