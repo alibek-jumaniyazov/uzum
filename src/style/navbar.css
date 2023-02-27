@@ -110,14 +110,14 @@
 }
 
 .katalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 120px;
     height: 40px;
     background: rgba(49, 49, 196, 0.1);
     border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
+    gap: 30px;
     cursor: pointer;
     transition: all 0.5s ease;
 }
@@ -153,7 +153,7 @@
     flex: 1;
 }
 
-.search input::placeholder{
+.search input::placeholder {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -216,9 +216,10 @@
     font-size: 14px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.609);
-    transition: color 0.5s ease ;
+    transition: color 0.5s ease;
 }
-.items:hover{
+
+.items:hover {
     color: #000000;
     cursor: pointer;
 }

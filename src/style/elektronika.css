@@ -56,8 +56,8 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 0px;
-
+    gap: 35px;
+    margin-left: 40px;
 }
 
 .elements {
@@ -69,7 +69,8 @@
 }
 
 .elem {
-    width: 1000px;
+    width: 988px;
+    gap: 8px;
 }
 
 .lists {
@@ -83,8 +84,8 @@
 }
 
 .elemTitle {
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 17px;
     line-height: 40px;
     color: rgba(0, 0, 0, 0.87);
 }
@@ -94,19 +95,102 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 7px;
+    gap: 5px;
     margin-left: 20px;
+    width: 235px;
+}
 
-width: 300px;}
-
-.listItems p {
-    font-weight: 400;
+.listItemstext {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    color: rgba(33, 33, 33, 0.87);
-    width: 100%;
+    color: rgba(84, 83, 83, 0.87);
+    letter-spacing: 0.1px;
+
+    border-radius: 6px;
     padding: 5px 10px;
+
 }
-.listItems p:hover{
+
+.listItems p:hover {
     background-color: rgba(128, 128, 128, 0.119);
+    cursor: pointer;
+}
+
+.rotateRage {
+    transform: rotate(90deg);
+}
+
+.mainText {
+    font-weight: 600;
+    color: rgba(33, 32, 32, 0.87);
+    background-color: rgba(128, 128, 128, 0.119);
+}
+
+.fa-angle-left {
+    transform: translateX(-10px);
+
+}
+
+.Brend p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.Brend p input {
+    outline: none;
+}
+
+.Brend {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.inputTextura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding:5px 15px;
+    width: 126px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.oranm{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+
+}
+.inputTextura p {
+    font-weight: 400;
+    font-size: 12.25px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.inputTextura input {
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+    width: 50px;
+    background: transparent;
+}
+.narxInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }

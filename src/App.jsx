@@ -14,12 +14,14 @@ import Salomatlik from './Pages/Lists/Salomatlik';
 import Texnika from './Pages/Lists/Texnika';
 import Uy from './Pages/Lists/Uy';
 import './style/app.css'
+import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
   return (
+    <ChakraProvider>
     <div className="App">
       <Navbar/>
-        <div className="container">
+        <div className="containerr  ">
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/elektronika' element={<Elektronika/>}/>
@@ -30,13 +32,14 @@ function App() {
             <Route path='/goʻzallik' element={<Gozallik/>}/>
             <Route path='/kiyim' element={<Kiyim/>}/>
             <Route path='/poyabzallar' element={<Poyabzallar/>}/>
-            <Route path='/texnika' element={<Qurilish/>}/>
+            <Route path='/qurilish' element={<Qurilish/>}/>
             <Route path='/salomatlik' element={<Salomatlik/>}/>
             <Route path='/uy' element={<Uy/>}/>
           </Routes>
         </div>
         <Footer/>
     </div>
+    </ChakraProvider>
   );
 }
 
