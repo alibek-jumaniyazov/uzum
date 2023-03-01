@@ -25,7 +25,7 @@ export default function Navbar() {
 
             setTimeout(() => {
                 boxRef.current.style.display = 'none'
-            }, 500)
+            }, 1000)
         }
     }
 
@@ -62,9 +62,9 @@ export default function Navbar() {
                 <Link to={'/'}><img className="logo" src={logo} alt="" /></Link>
                 <div className="searchBar">
                     <div onClick={() => className()} className="katalog">
-                        <label onClick={() => className()} class="container">
-                            <input  onClick={() => className()} type="checkbox" />
-                            <div  onClick={() => className()} class="checkmark">
+                        <label class="container">
+                            <input type="checkbox" />
+                            <div class="checkmark">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -109,7 +109,7 @@ export default function Navbar() {
                 <li className="items">Yana</li>
             </ul>
             <div ref={boxRef} className={box}>
-                            </div>
+            </div>
         </div>
     )
 }
