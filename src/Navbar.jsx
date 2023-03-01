@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useRef, useState } from "react"
 import local from './image/local.svg'
 import uzb from './image/uzb.svg'
 import user from './image/user.svg'
@@ -13,15 +13,20 @@ export default function Navbar() {
     const [flag, setFlag] = useState(uzb)
     const [box, setBox] = useState('katalogClose')
 
+    const boxRef = useRef(null)
 
     function className() {
         if (box == 'katalogClose') {
+            boxRef.current.style.display = 'block'
             setBox('katalogOpen')
         }
         if (box == 'katalogOpen') {
             setBox('katalogClose')
-        }
 
+            setTimeout(() => {
+                boxRef.current.style.display = 'none'
+            }, 500)
+        }
     }
 
 
@@ -58,8 +63,8 @@ export default function Navbar() {
                 <div className="searchBar">
                     <div onClick={() => className()} className="katalog">
                         <label onClick={() => className()} class="container">
-                            <input type="checkbox" />
-                            <div class="checkmark">
+                            <input  onClick={() => className()} type="checkbox" />
+                            <div  onClick={() => className()} class="checkmark">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -103,9 +108,8 @@ export default function Navbar() {
                 <Link to={'/bolalar'} >  <li className="items">Bolalar tovarlari</li>  </Link>
                 <li className="items">Yana</li>
             </ul>
-            <div className={box}>
-
-            </div>
+            <div ref={boxRef} className={box}>
+                            </div>
         </div>
     )
 }
