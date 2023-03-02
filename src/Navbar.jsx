@@ -25,7 +25,7 @@ export default function Navbar() {
 
             setTimeout(() => {
                 boxRef.current.style.display = 'none'
-            }, 1000)
+            }, 500)
         }
     }
 
