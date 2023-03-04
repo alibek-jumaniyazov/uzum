@@ -19,3 +19,19 @@ root.render(
         </BrowserRouter>
     </ChakraProvider>
 );
+
+const hover1 = document.querySelector('.elektronika1').onmouseenter = hover1on
+const text1 = document.querySelector('.elektronikaText')
+
+const hover2 = document.querySelector('.texnika1').onmouseenter = hover2on
+const text2 = document.querySelector('.texnikaText')
+
+function hover2on() {
+    text2.style.display = 'block'
+    text1.style.display = 'none'
+}
+
+function hover1on() {
+    text1.style.display = 'block'
+    text2.style.display = 'none'
+}                                          

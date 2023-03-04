@@ -253,3 +253,39 @@
     box-shadow: 0px 91px 76px 0px rgba(34, 60, 80, 0.21); 
     transition: all 0.2s ease;
 }
+.boxTitlt{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 120px;
+    padding: 5px 10px;
+    height: 39.796875px;
+    width: 263px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.boxTitlt:hover{
+    background: rgba(118, 121, 127, 0.1);
+    cursor: pointer;
+}
+.boxItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.boxItem p{
+
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #141415;
+}
+.boxContainer{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.texnikaText{
+    display: none;
+}

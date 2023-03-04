@@ -1,6 +1,16 @@
 import { useRef, useState } from "react"
 import local from './image/local.svg'
 import uzb from './image/uzb.svg'
+import icon1 from './image/elektronika.svg'
+import icon3 from './image/Kiyim.svg'
+import icon2 from './image/Texnika.svg'
+import icon4 from './image/Poyovzal.svg'
+import icon5 from './image/Aksesuar.svg'
+import icon6 from './image/Gozallik.svg'
+import icon7 from './image/Salomatlik.svg'
+import icon8 from './image/uy.svg'
+import icon9 from './image/qurilish.svg'
+import icon10 from './image/avtotolovlar.svg'
 import user from './image/user.svg'
 import heart from './image/heart.svg'
 import shop_card from './image/shop_card.svg'
@@ -29,7 +39,7 @@ export default function Navbar() {
         }
     }
 
-
+                                      
     return (
         <div className="Navbar">
             <div className="nav">
@@ -109,6 +119,34 @@ export default function Navbar() {
                 <li className="items">Yana</li>
             </ul>
             <div ref={boxRef} className={box}>
+                <div className="boxContainer">
+                    <div className="iconTitle">
+                        <div className="boxTitlt elektronika1">
+                            <div className="boxItem">
+                                <img src={icon1} alt="" />
+                                <p>Elektronika</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+
+                        <div className="boxTitlt texnika1">
+                            <div className="boxItem">
+                                <img src={icon1} alt="" />
+                                <p>Elektronika</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div className="iconText">
+                        <div className="elektronikaText">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aperiam tenetur atque inventore reprehenderit, corporis odit fugit, praesentium incidunt necessitatibus nulla cupiditate sapiente? Doloribus, aspernatur sapiente. Dolorum sapiente sed nemo.
+                        </div>
+
+                        <div className="texnikaText">
+                            Minima aperiam tenetur atque inventore reprehenderit, corporis odit fugit, praesentium incidunt necessitatibus nulla cupiditate sapiente? Doloribus, aspernatur sapiente. Dolorum sapiente sed nemo.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
