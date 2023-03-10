@@ -224,7 +224,8 @@
     color: #000000;
     cursor: pointer;
 }
-.katalogOpen{
+
+.katalogOpen {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -237,10 +238,11 @@
     height: 600px;
     z-index: 999;
     top: 95px;
-    box-shadow: 0px 91px 76px 0px rgba(34, 60, 80, 0.21); 
+    box-shadow: 0px 91px 76px 0px rgba(34, 60, 80, 0.21);
     transition: all 0.2s ease;
 }
-.katalogClose{
+
+.katalogClose {
     position: absolute;
     display: flex;
     opacity: 0;
@@ -250,10 +252,11 @@
     height: 600px;
     z-index: 0;
     top: 95px;
-    box-shadow: 0px 91px 76px 0px rgba(34, 60, 80, 0.21); 
+    box-shadow: 0px 91px 76px 0px rgba(34, 60, 80, 0.21);
     transition: all 0.2s ease;
 }
-.boxTitlt{
+
+.boxTitlt {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -264,28 +267,32 @@
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 }
-.boxTitlt:hover{
+
+.boxTitlt:hover {
     background: rgba(118, 121, 127, 0.1);
     cursor: pointer;
 }
-.boxItem{
+
+.boxItem {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-.boxItem p{
 
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-color: #141415;
+.boxItem p {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #141415;
 }
-.boxContainer{
+
+.boxContainer {
     width: 1240px;
     margin: 0 auto;
 }
 
-.texnikaText{
+.texnikaText {
     display: none;
 }
