@@ -31,7 +31,3 @@ function hover2on() {
     text1.style.display = 'none'
 }
 
-function hover1on() {
-    text1.style.display = 'block'
-    text2.style.display = 'none'
-}                                          
