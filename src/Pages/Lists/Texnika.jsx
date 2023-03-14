@@ -24,7 +24,7 @@ export default function Texnika() {
                 <div className="elements">
                     <p className="elemTitle">Turkumlar</p>
                     <div className="listItems">
-                    <Link to={'/barcha'} > <p className="listItemstext bar"><i class="fa-solid fa-angle-left"></i> Barcha turkumlar</p> </Link>
+                        <Link to={'/barcha'} > <p className="listItemstext bar"><i class="fa-solid fa-angle-left"></i> Barcha turkumlar</p> </Link>
                         <p className='listItemstext mainText'>Maishiy texnika</p>
                         <p className="listItemstext">Iqlim texnikasi</p>
                         <p className="listItemstext">Oʻyin pristavkalari</p>
@@ -35,7 +35,7 @@ export default function Texnika() {
                         <p className="listItemstext">Uy uchun texnika</p>
                         <p className="listItemstext">Goʻzallik uchun texnika</p>
                         <p className="listItemstext">Oshxona buyumlari</p>
-            
+
                     </div>
                     <p className="elemTitle">Narx, baho</p>
                     <div className="narx">

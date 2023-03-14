@@ -4,8 +4,8 @@ import { Link } from "react-router-dom"
 import Card from "../../Components/Katta Sotuvlar/Card";
 import { useState } from 'react';
 export default function Kiyim() {
-    const [narx , setNarx] = useState(200)
-    const [max , setMax] = useState(20000)
+    const [narx, setNarx] = useState(200)
+    const [max, setMax] = useState(20000)
 
     return (
         <div className="Elektronika">
@@ -24,7 +24,7 @@ export default function Kiyim() {
                 <div className="elements">
                     <p className="elemTitle">Turkumlar</p>
                     <div className="listItems">
-                    <Link to={'/barcha'} > <p className="listItemstext bar"><i class="fa-solid fa-angle-left"></i> Barcha turkumlar</p> </Link>
+                        <Link to={'/barcha'} > <p className="listItemstext bar"><i class="fa-solid fa-angle-left"></i> Barcha turkumlar</p> </Link>
                         <p className='listItemstext mainText'>Kiyim</p>
                         <p className="listItemstext">Bolalar kiyimi</p>
                         <p className="listItemstext">Ayollar kiyimi</p>
@@ -36,17 +36,17 @@ export default function Kiyim() {
                         <div className="narxInput">
                             <div className="inputTextura">
                                 <div className="oranm">
-                                  <p>dan</p>
-                                <input type="text" value={narx} />  
+                                    <p>dan</p>
+                                    <input type="text" value={narx} />
                                 </div>
-                                
+
                             </div>
                             <div className="inputTextura">
                                 <div className="oranm">
-                                  <p>oldin</p>
-                                <input type="text" value={max} />  
+                                    <p>oldin</p>
+                                    <input type="text" value={max} />
                                 </div>
-                                
+
                             </div>
                         </div>
 
