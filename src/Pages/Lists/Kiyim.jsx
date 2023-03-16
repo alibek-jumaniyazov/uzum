@@ -23,6 +23,17 @@ export default function Kiyim() {
             <div className="contents">
                 <div className="elements">
                     <p className="elemTitle">Turkumlar</p>
+                    <div className="listItems">
+                        <Link to={'/barcha'} > <p className="listItemstext bar"><i class="fa-solid fa-angle-left"></i> Barcha turkumlar</p> </Link>
+                        <p className='listItemstext mainText'>Kiyim</p>
+                        <p className="listItemstext">Bolalar kiyimi</p>
+                        <p className="listItemstext">Ayollar kiyimi</p>
+                        <p className="listItemstext">Erkaklar kiyimi</p>
+                        <p className="listItemstext">Maxsus kiyimlar</p>
+                    </div>
+                    <p className="elemTitle">Narx, baho</p>
+                    <div className="narx">
+                        <div className="narxInput">
                             <div className="inputTextura">
                                 <div className="oranm">
                                     <p>dan</p>
