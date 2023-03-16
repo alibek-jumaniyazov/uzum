@@ -23,20 +23,7 @@ export default function Texnika() {
             <div className="contents">
                 <div className="elements">
                     <p className="elemTitle">Turkumlar</p>
-                    <div className="listItems">
-                        <Link to={'/barcha'} > <p className="listItemstext bar"><i class="fa-solid fa-angle-left"></i> Barcha turkumlar</p> </Link>
-                        <p className='listItemstext mainText'>Maishiy texnika</p>
-                        <p className="listItemstext">Iqlim texnikasi</p>
-                        <p className="listItemstext">Oʻyin pristavkalari</p>
-                        <p className="listItemstext">Katta maishiy texnika</p>
-                        <p className="listItemstext">Maishiy texnika uchun boshqa aksessuarlar va ehtiyot qismlar
-                        </p>
-                        <p className="listItemstext">Quloqchinlar va audio texnikalar</p>
-                        <p className="listItemstext">Uy uchun texnika</p>
-                        <p className="listItemstext">Goʻzallik uchun texnika</p>
-                        <p className="listItemstext">Oshxona buyumlari</p>
-
-                    </div>
+                  
                     <p className="elemTitle">Narx, baho</p>
                     <div className="narx">
                         <div className="narxInput">
@@ -65,7 +52,7 @@ export default function Texnika() {
                                     <p>oldin</p>
                                     <input type="text" value={max} />
                                 </div>
-                                
+
                     <p className="elemTitle">Brend</p>
                     <div className="Brend">
                         <p>
