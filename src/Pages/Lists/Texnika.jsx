@@ -57,6 +57,15 @@ export default function Texnika() {
                         </div>
 
                     </div>
+
+                    
+                    </div>
+                            <div className="inputTextura">
+                                <div className="oranm">
+                                    <p>oldin</p>
+                                    <input type="text" value={max} />
+                                </div>
+                                
                     <p className="elemTitle">Brend</p>
                     <div className="Brend">
                         <p>
