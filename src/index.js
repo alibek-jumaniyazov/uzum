@@ -35,3 +35,8 @@ function hover1on() {
     text1.style.display = 'block'
     text2.style.display = 'none'
 }                                          
+
+function hover3on() {
+    text1.style.display = 'block'
+    text2.style.display = 'none'
+} 
