@@ -4,8 +4,7 @@ import { Link } from "react-router-dom"
 import Card from "../../Components/Katta Sotuvlar/Card";
 import { useState } from 'react';
 export default function Texnika() {
-    const [narx, setNarx] = useState(200)
-    const [max, setMax] = useState(20000)
+  
 
     return (
         <div className="Elektronika">
@@ -33,28 +32,7 @@ export default function Texnika() {
                         </p>
                         <p className="listItemstext">Quloqchinlar va audio texnikalar</p>
                         <p className="listItemstext">Uy uchun texnika</p>
-                        <p className="listItemstext">Goʻzallik uchun texnika</p>
-                        <p className="listItemstext">Oshxona buyumlari</p>
-
-                    </div>
-                    <p className="elemTitle">Narx, baho</p>
-                    <div className="narx">
-                        <div className="narxInput">
-                            <div className="inputTextura">
-                                <div className="oranm">
-                                    <p>dan</p>
-                                    <input type="text" value={narx} />
-                                </div>
-
-                            </div>
-                            <div className="inputTextura">
-                                <div className="oranm">
-                                    <p>oldin</p>
-                                    <input type="text" value={max} />
-                                </div>
-
-                            </div>
-                        </div>
+             
 
                     </div>
                     <p className="elemTitle">Brend</p>
