@@ -202,3 +202,41 @@
     transform: translateX(-10px);
 
 }
+.listItems p:hover {
+    background-color: rgba(128, 128, 128, 0.119);
+    cursor: pointer;
+}
+
+.rotateRage {
+    transform: rotate(90deg);
+}
+
+.mainText {
+    font-weight: 600;
+    color: rgba(33, 32, 32, 0.87);
+    background-color: rgba(128, 128, 128, 0.119);
+}
+
+.fa-angle-left {
+    transform: translateX(-5px);
+
+}
+
+.Brend p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.Brend p input {
+    outline: none;
+}
+
+.Brend {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+}
