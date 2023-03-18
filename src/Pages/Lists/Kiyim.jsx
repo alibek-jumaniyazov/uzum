@@ -38,7 +38,17 @@ export default function Kiyim() {
                                 <div className="oranm">
                                     <p>dan</p>
                                     <input type="text" value={narx} />
+                                </div>
 
+                            </div>
+                            <div className="inputTextura">
+                                <div className="oranm">
+                                    <p>oldin</p>
+                                    <input type="text" value={max} />
+                                </div>
+
+                            </div>
+                        </div>
 
                     </div>
                     <p className="elemTitle">Brend</p>
