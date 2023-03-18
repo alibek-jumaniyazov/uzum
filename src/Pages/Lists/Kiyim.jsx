@@ -18,14 +18,7 @@ export default function Kiyim() {
                         <option value="">Ommabop</option>
                     </select>
                 </div>
-            </div>
-            <hr className='hrElecktronika' />
-            <div className="contents">
-                <div className="elements">
-                    <p className="elemTitle">Turkumlar</p>
-                    <div className="listItems">
-                        <Link to={'/barcha'} > <p className="listItemstext bar"><i class="fa-solid fa-angle-left"></i> Barcha turkumlar</p> </Link>
-                        <p className='listItemstext mainText'>Kiyim</p>
+        temstext mainText'>Kiyim</p>
                         <p className="listItemstext">Bolalar kiyimi</p>
                         <p className="listItemstext">Ayollar kiyimi</p>
                         <p className="listItemstext">Erkaklar kiyimi</p>
