@@ -33,12 +33,7 @@ export default function Kiyim() {
                     </div>
                     <p className="elemTitle">Narx, baho</p>
                     <div className="narx">
-                        <div className="narxInput">
-                            <div className="inputTextura">
-                                <div className="oranm">
-                                    <p>dan</p>
-                                    <input type="text" value={narx} />
-                                </div>
+                        <div classN
 
                             </div>
                             <div className="inputTextura">
