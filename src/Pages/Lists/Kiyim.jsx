@@ -14,11 +14,7 @@ export default function Kiyim() {
                 <h2 className="title">Одежда</h2>
                 <div className="selects">
                     <span>Saralash</span>
-                    <select name="" id="">
-                        <option value="">Ommabop</option>
-                    </select>
-                </div>
-            </div>
+                    <select name="" id=""
             <hr className='hrElecktronika' />
             <div className="contents">
                 <div className="elements">
