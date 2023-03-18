@@ -14,7 +14,11 @@ export default function Kiyim() {
                 <h2 className="title">Одежда</h2>
                 <div className="selects">
                     <span>Saralash</span>
-                    <select name="" id=""
+                    <select name="" id="">
+                        <option value="">Ommabop</option>
+                    </select>
+                </div>
+            </div>
             <hr className='hrElecktronika' />
             <div className="contents">
                 <div className="elements">
@@ -34,17 +38,7 @@ export default function Kiyim() {
                                 <div className="oranm">
                                     <p>dan</p>
                                     <input type="text" value={narx} />
-                                </div>
 
-                            </div>
-                            <div className="inputTextura">
-                                <div className="oranm">
-                                    <p>oldin</p>
-                                    <input type="text" value={max} />
-                                </div>
-
-                            </div>
-                        </div>
 
                     </div>
                     <p className="elemTitle">Brend</p>
