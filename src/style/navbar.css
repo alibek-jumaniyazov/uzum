@@ -70,29 +70,6 @@
     color: #62656A;
 }
 
-.navFoot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-
-.navFoot p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 14px;
-    color: #62656A;
-}
-
-.lagluage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-
-.lagluage img {
-    border-radius: 50%;
 }
 
 .navSearch {
