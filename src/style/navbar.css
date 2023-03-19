@@ -84,7 +84,12 @@
     color: #62656A;
 }
 
-
+.lagluage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 
 .lagluage img {
     border-radius: 50%;
@@ -97,7 +102,13 @@
     gap: 20px;
 }
 
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 
+}
 
 .katalog {
     display: flex;
