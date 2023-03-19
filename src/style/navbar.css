@@ -63,16 +63,7 @@
     text-decoration: solid;
 }
 
-.navDatavka p {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 14px;
-    color: #62656A;
-}
-
-.navFoot {
-    display: flex;
-    justify-content: center;
+enter;
     align-items: center;
     gap: 15px;
 }
