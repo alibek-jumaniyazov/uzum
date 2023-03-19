@@ -71,10 +71,10 @@
 }
 
 .navFoot {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .navFoot p {
@@ -85,10 +85,10 @@ gap: 15px;
 }
 
 .lagluage {
- display: flex;
- justify-content: center;
- align-items: center;
- gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .lagluage img {
