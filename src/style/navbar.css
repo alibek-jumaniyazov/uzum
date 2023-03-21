@@ -91,7 +91,21 @@
     gap: 5px;
 }
 
-.lag
+    .lagluage img {
+        border-radius: 50%;
+    }
+
+    .navSearch {
+        width: 1240px;
+        margin: 0 auto;
+        display: flex;
+        gap: 20px;
+    }
+
+    .searchBar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     gap: 20px;
 
 }
