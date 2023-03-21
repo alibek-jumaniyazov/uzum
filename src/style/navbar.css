@@ -47,6 +47,12 @@
     gap: 10px;
 }
 
+.gorodInfo p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #141415;
+}
 
 .gorodInfo span {
     font-weight: 500;
