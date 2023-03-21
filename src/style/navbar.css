@@ -83,6 +83,12 @@
     line-height: 14px;
     color: #62656A;
 }
+
+.lagluage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .lagluage img {
