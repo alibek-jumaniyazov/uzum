@@ -159,18 +159,20 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
-    padding:5px 15px;
+    padding: 5px 15px;
     width: 126px;
     border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
-.oranm{
+
+.oranm {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 5px;
 
 }
+
 .inputTextura p {
     font-weight: 400;
     font-size: 12.25px;
@@ -188,17 +190,20 @@
     width: 50px;
     background: transparent;
 }
-.narxInput{
+
+.narxInput {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.fa-angle-left{
+
+.fa-angle-left {
     transition: all 0.5s ease;
     font-size: 12px;
 }
-.bar:hover .fa-angle-left{
+
+.bar:hover .fa-angle-left {
     transform: translateX(-10px);
 
 }
